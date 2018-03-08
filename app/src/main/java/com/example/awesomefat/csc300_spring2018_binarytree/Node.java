@@ -29,5 +29,26 @@ public class Node
         return rightChild;
     }
 
+    public void addPayload(int payload){
+        if (payload<= this.payload){
+            if(this.leftChild == null){
+                System.out.println("Left Set");
+                this.leftChild = new Node(payload);
+            }
+            else{
+                this.leftChild.addPayload(payload);
+                System.out.print("Left ");
+            }
+        }
+        else if (this.rightChild == null){
+            this.rightChild = new Node(payload);
+            System.out.print("Right Set");
+        }
+        else {
+            this.rightChild.addPayload(payload);
+            System.out.print("Right ");
+        }
+    }
+
 
 }

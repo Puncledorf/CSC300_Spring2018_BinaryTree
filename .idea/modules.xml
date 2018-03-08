@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CSC300_Spring2018_BinaryTree.iml" filepath="$PROJECT_DIR$/CSC300_Spring2018_BinaryTree.iml" />
+      <module fileurl="file://C:\Users\CSF00477528\Downloads\CSC300_Spring2018_BinaryTree\CSC300_Spring2018_BinaryTree.iml" filepath="C:\Users\CSF00477528\Downloads\CSC300_Spring2018_BinaryTree\CSC300_Spring2018_BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\CSF00477528\Downloads\CSC300_Spring2018_BinaryTree\app\app.iml" filepath="C:\Users\CSF00477528\Downloads\CSC300_Spring2018_BinaryTree\app\app.iml" />
     </modules>
   </component>
 </project>
